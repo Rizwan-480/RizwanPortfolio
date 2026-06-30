@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\shaik\\Documents\\FCC\\Major Project\\New folder\\RizwanPortfolio-MVC-Project\\",
+  "WorkspaceRootPath": "C:\\Users\\shaik\\Desktop\\RizwanPortfolio-MVC-Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8A37888B-835C-4271-A995-A4E66ADEA746}|RizwanPortfolio\\RizwanPortfolio.csproj|c:\\users\\shaik\\documents\\fcc\\major project\\new folder\\rizwanportfolio-mvc-project\\rizwanportfolio\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{8A37888B-835C-4271-A995-A4E66ADEA746}|RizwanPortfolio\\RizwanPortfolio.csproj|c:\\users\\shaik\\desktop\\rizwanportfolio-mvc-project\\rizwanportfolio\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8A37888B-835C-4271-A995-A4E66ADEA746}|RizwanPortfolio\\RizwanPortfolio.csproj|solutionrelative:rizwanportfolio\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A37888B-835C-4271-A995-A4E66ADEA746}|RizwanPortfolio\\RizwanPortfolio.csproj|c:\\users\\shaik\\documents\\fcc\\major project\\new folder\\rizwanportfolio-mvc-project\\rizwanportfolio\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{8A37888B-835C-4271-A995-A4E66ADEA746}|RizwanPortfolio\\RizwanPortfolio.csproj|C:\\Users\\shaik\\Desktop\\RizwanPortfolio-MVC-Project\\rizwanportfolio\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8A37888B-835C-4271-A995-A4E66ADEA746}|RizwanPortfolio\\RizwanPortfolio.csproj|solutionrelative:rizwanportfolio\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A37888B-835C-4271-A995-A4E66ADEA746}|RizwanPortfolio\\RizwanPortfolio.csproj|c:\\users\\shaik\\documents\\fcc\\major project\\new folder\\rizwanportfolio-mvc-project\\rizwanportfolio\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{8A37888B-835C-4271-A995-A4E66ADEA746}|RizwanPortfolio\\RizwanPortfolio.csproj|C:\\Users\\shaik\\Desktop\\RizwanPortfolio-MVC-Project\\rizwanportfolio\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{8A37888B-835C-4271-A995-A4E66ADEA746}|RizwanPortfolio\\RizwanPortfolio.csproj|solutionrelative:rizwanportfolio\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shaik\\Documents\\FCC\\Major Project\\New folder\\RizwanPortfolio-MVC-Project\\RizwanPortfolio\\Models\\PortfolioModels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RizwanPortfolio\\Models\\PortfolioModels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8A37888B-835C-4271-A995-A4E66ADEA746}|RizwanPortfolio\\RizwanPortfolio.csproj|C:\\Users\\shaik\\Desktop\\RizwanPortfolio-MVC-Project\\rizwanportfolio\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A37888B-835C-4271-A995-A4E66ADEA746}|RizwanPortfolio\\RizwanPortfolio.csproj|solutionrelative:rizwanportfolio\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A37888B-835C-4271-A995-A4E66ADEA746}|RizwanPortfolio\\RizwanPortfolio.csproj|c:\\users\\shaik\\documents\\fcc\\major project\\new folder\\rizwanportfolio-mvc-project\\rizwanportfolio\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A37888B-835C-4271-A995-A4E66ADEA746}|RizwanPortfolio\\RizwanPortfolio.csproj|solutionrelative:rizwanportfolio\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8A37888B-835C-4271-A995-A4E66ADEA746}|RizwanPortfolio\\RizwanPortfolio.csproj|C:\\Users\\shaik\\Desktop\\RizwanPortfolio-MVC-Project\\RizwanPortfolio\\Models\\PortfolioModels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A37888B-835C-4271-A995-A4E66ADEA746}|RizwanPortfolio\\RizwanPortfolio.csproj|solutionrelative:RizwanPortfolio\\Models\\PortfolioModels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,9 +40,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\shaik\\Documents\\FCC\\Major Project\\New folder\\RizwanPortfolio-MVC-Project\\RizwanPortfolio\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\shaik\\Desktop\\RizwanPortfolio-MVC-Project\\RizwanPortfolio\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "RizwanPortfolio\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\shaik\\Documents\\FCC\\Major Project\\New folder\\RizwanPortfolio-MVC-Project\\RizwanPortfolio\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\shaik\\Desktop\\RizwanPortfolio-MVC-Project\\RizwanPortfolio\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "RizwanPortfolio\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAEAAAAAAAAAAAArwBQAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -53,53 +53,49 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\shaik\\Documents\\FCC\\Major Project\\New folder\\RizwanPortfolio-MVC-Project\\RizwanPortfolio\\Views\\_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\shaik\\Desktop\\RizwanPortfolio-MVC-Project\\RizwanPortfolio\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "RizwanPortfolio\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\shaik\\Documents\\FCC\\Major Project\\New folder\\RizwanPortfolio-MVC-Project\\RizwanPortfolio\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\shaik\\Desktop\\RizwanPortfolio-MVC-Project\\RizwanPortfolio\\Views\\_ViewStart.cshtml",
               "RelativeToolTip": "RizwanPortfolio\\Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-30T22:37:43.337Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-30T22:37:43.337Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\shaik\\Documents\\FCC\\Major Project\\New folder\\RizwanPortfolio-MVC-Project\\RizwanPortfolio\\Views\\Web.config",
+              "DocumentMoniker": "C:\\Users\\shaik\\Desktop\\RizwanPortfolio-MVC-Project\\RizwanPortfolio\\Views\\Web.config",
               "RelativeDocumentMoniker": "RizwanPortfolio\\Views\\Web.config",
-              "ToolTip": "C:\\Users\\shaik\\Documents\\FCC\\Major Project\\New folder\\RizwanPortfolio-MVC-Project\\RizwanPortfolio\\Views\\Web.config",
+              "ToolTip": "C:\\Users\\shaik\\Desktop\\RizwanPortfolio-MVC-Project\\RizwanPortfolio\\Views\\Web.config",
               "RelativeToolTip": "RizwanPortfolio\\Views\\Web.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2026-06-30T22:34:41.996Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PortfolioModels.cs",
-              "DocumentMoniker": "C:\\Users\\shaik\\Documents\\FCC\\Major Project\\New folder\\RizwanPortfolio-MVC-Project\\RizwanPortfolio\\Models\\PortfolioModels.cs",
-              "RelativeDocumentMoniker": "RizwanPortfolio\\Models\\PortfolioModels.cs",
-              "ToolTip": "C:\\Users\\shaik\\Documents\\FCC\\Major Project\\New folder\\RizwanPortfolio-MVC-Project\\RizwanPortfolio\\Models\\PortfolioModels.cs",
-              "RelativeToolTip": "RizwanPortfolio\\Models\\PortfolioModels.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T22:26:46.755Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-30T22:34:41.996Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "PortfolioModels.cs",
+              "DocumentMoniker": "C:\\Users\\shaik\\Desktop\\RizwanPortfolio-MVC-Project\\RizwanPortfolio\\Models\\PortfolioModels.cs",
+              "RelativeDocumentMoniker": "RizwanPortfolio\\Models\\PortfolioModels.cs",
+              "ToolTip": "C:\\Users\\shaik\\Desktop\\RizwanPortfolio-MVC-Project\\RizwanPortfolio\\Models\\PortfolioModels.cs",
+              "RelativeToolTip": "RizwanPortfolio\\Models\\PortfolioModels.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T22:26:46.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\shaik\\Documents\\FCC\\Major Project\\New folder\\RizwanPortfolio-MVC-Project\\RizwanPortfolio\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\shaik\\Desktop\\RizwanPortfolio-MVC-Project\\RizwanPortfolio\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "RizwanPortfolio\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\shaik\\Documents\\FCC\\Major Project\\New folder\\RizwanPortfolio-MVC-Project\\RizwanPortfolio\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\shaik\\Desktop\\RizwanPortfolio-MVC-Project\\RizwanPortfolio\\Controllers\\HomeController.cs",
               "RelativeToolTip": "RizwanPortfolio\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAEcAAAAAAAAAAAAAAGIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T22:20:59.079Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-30T22:20:59.079Z"
             }
           ]
         }
