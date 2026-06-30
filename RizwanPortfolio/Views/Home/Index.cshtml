@@ -1,0 +1,213 @@
+@model RizwanPortfolio.Models.PortfolioViewModel
+@{
+    ViewBag.Title = "Software Developer";
+}
+
+<div class="grain"></div>
+<div class="scanline"></div>
+
+<!-- ===================== NAV ===================== -->
+<header class="topbar">
+    <div class="topbar__inner">
+        <span class="logo">SMR<span class="logo__dot">.</span></span>
+        <nav class="nav">
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <a class="btn btn--ghost" href="mailto:@Model.Email">Get In Touch</a>
+    </div>
+</header>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero" id="top">
+    <div class="hero__inner">
+        <div class="hero__text">
+            <p class="eyebrow"><span class="status-dot"></span>Open to new opportunities</p>
+            <h1 class="hero__title">
+                @Model.FullName
+            </h1>
+            <p class="hero__role">@Model.Title</p>
+            <p class="hero__tagline">@Model.Tagline</p>
+
+            <div class="hero__meta">
+                <div class="meta"><span class="meta__label">Location</span><span class="meta__value">@Model.Location</span></div>
+                <div class="meta"><span class="meta__label">Open to</span><span class="meta__value">@string.Join(" / ", Model.OpenToRoles)</span></div>
+                <div class="meta"><span class="meta__label">Work mode</span><span class="meta__value">@Model.WorkMode</span></div>
+            </div>
+
+            <div class="hero__cta">
+                <a class="btn btn--solid" href="#projects">View Projects</a>
+                <a class="btn btn--outline" href="@Model.GitHub" target="_blank" rel="noopener">GitHub</a>
+                <a class="btn btn--outline" href="#contact">Get In Touch</a>
+            </div>
+        </div>
+
+        <div class="hero__badge-stage" id="badgeStage">
+            <div class="badge-lanyard"></div>
+            <div class="badge" id="badge">
+                <div class="badge__face badge__face--front">
+                    <div class="badge__sheen"></div>
+                    <div class="badge__punch"></div>
+                    <div class="badge__photo-frame">
+                        <img src="@Url.Content("~/Images/profile-badge.jpg")" alt="@Model.FullName" class="badge__photo" />
+                        <div class="badge__photo-overlay"></div>
+                    </div>
+                    <div class="badge__name">@Model.FullName</div>
+                    <div class="badge__role">@Model.Title</div>
+                    <div class="badge__barcode" aria-hidden="true">
+                        @for (int i = 0; i < 28; i++)
+                        {
+                            <span style="width:@((i % 3 == 0) ? "3px" : "1px")"></span>
+                        }
+                    </div>
+                    <div class="badge__id">@Model.BadgeId</div>
+                </div>
+                <div class="badge__face badge__face--back">
+                    <div class="badge__sheen"></div>
+                    <p class="badge__back-label">Tech Stack</p>
+                    <ul class="badge__stack-list">
+                        <li>C# &middot; ASP.NET MVC</li>
+                        <li>ADO.NET &middot; SQL Server</li>
+                        <li>AJAX &middot; jQuery</li>
+                        <li>Bootstrap &middot; JavaScript</li>
+                        <li>IIS Deployment</li>
+                    </ul>
+                    <p class="badge__back-foot">VALID THROUGH: ONGOING</p>
+                </div>
+            </div>
+            <p class="badge-hint">drag / move cursor &mdash; scroll to rotate</p>
+        </div>
+    </div>
+</section>
+
+<!-- ===================== ACCESS LOG (Experience) ===================== -->
+<section class="section" id="experience">
+    <div class="section__head">
+        <p class="eyebrow">Experience</p>
+        <h2 class="section__title">Where I've worked</h2>
+    </div>
+
+    @foreach (var exp in Model.Experience)
+    {
+        <div class="log-card">
+            <div class="log-card__top">
+                <div>
+                    <h3 class="log-card__role">@exp.Role</h3>
+                    <p class="log-card__org">@exp.Organization &mdash; @exp.Location</p>
+                </div>
+                <span class="pill mono">@exp.Period</span>
+            </div>
+            <ul class="log-card__lines">
+                @foreach (var line in exp.LogLines)
+                {
+                    <li><span class="log-card__bullet">&gt;</span>@line</li>
+                }
+            </ul>
+            <div class="tag-row">
+                @foreach (var tech in exp.Stack)
+                {
+                    <span class="tag">@tech</span>
+                }
+            </div>
+        </div>
+    }
+</section>
+
+<!-- ===================== LOGGED ENTRIES (Projects) ===================== -->
+<section class="section section--alt" id="projects">
+    <div class="section__head">
+        <p class="eyebrow">Projects</p>
+        <h2 class="section__title">Things I've built</h2>
+    </div>
+
+    <div class="entry-grid">
+        @foreach (var p in Model.Projects)
+        {
+            <article class="entry-card">
+                <div class="entry-card__head">
+                    <span class="entry-card__id mono">@p.Id</span>
+                    <span class="pill pill--ghost mono">@p.Period</span>
+                </div>
+                <h3 class="entry-card__title">@p.Title</h3>
+                <p class="entry-card__summary">@p.Summary</p>
+                <ul class="entry-card__highlights">
+                    @foreach (var h in p.Highlights)
+                    {
+                        <li>@h</li>
+                    }
+                </ul>
+                <div class="tag-row">
+                    @foreach (var tech in p.Stack)
+                    {
+                        <span class="tag">@tech</span>
+                    }
+                </div>
+            </article>
+        }
+    </div>
+</section>
+
+<!-- ===================== GRANTED PERMISSIONS (Skills) ===================== -->
+<section class="section" id="skills">
+    <div class="section__head">
+        <p class="eyebrow">Skills</p>
+        <h2 class="section__title">What I work with</h2>
+    </div>
+
+    <div class="perm-grid">
+        @foreach (var group in Model.SkillGroups)
+        {
+            <div class="perm-card">
+                <h3 class="perm-card__title">@group.Category</h3>
+                <ul class="perm-card__list">
+                    @foreach (var item in group.Items)
+                    {
+                        <li><span class="perm-dot"></span>@item</li>
+                    }
+                </ul>
+            </div>
+        }
+    </div>
+
+    <div class="edu-row">
+        <div class="edu-card">
+            <p class="eyebrow">Education</p>
+            <h3 class="edu-card__title">@Model.Education.Degree</h3>
+            <p class="edu-card__org">@Model.Education.Institution, @Model.Education.Location</p>
+            <div class="edu-card__meta">
+                <span class="pill mono">@Model.Education.Period</span>
+                <span class="pill mono">CGPA @Model.Education.Cgpa</span>
+            </div>
+            <p class="edu-card__coursework">@Model.Education.Coursework</p>
+        </div>
+        <div class="edu-card">
+            <p class="eyebrow">Leadership</p>
+            <ul class="leadership-list">
+                @foreach (var item in Model.Leadership)
+                {
+                    <li><span class="log-card__bullet">&gt;</span>@item</li>
+                }
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- ===================== CONTACT ===================== -->
+<section class="section section--contact" id="contact">
+    <div class="contact-card">
+        <p class="eyebrow">Contact</p>
+        <h2 class="section__title">Let's build something.</h2>
+        <p class="contact-card__sub">Open to @string.Join(", ", Model.OpenToRoles) roles &mdash; @Model.WorkMode.</p>
+        <div class="contact-links">
+            <a class="btn btn--solid" href="mailto:@Model.Email">@Model.Email</a>
+            <a class="btn btn--outline" href="tel:@Model.Phone">@Model.Phone</a>
+            <a class="btn btn--outline" href="@Model.LinkedIn" target="_blank" rel="noopener">LinkedIn</a>
+            <a class="btn btn--outline" href="@Model.GitHub" target="_blank" rel="noopener">GitHub</a>
+        </div>
+    </div>
+    <footer class="footer">
+        @DateTime.Now.Year &copy; @Model.FullName
+    </footer>
+</section>
